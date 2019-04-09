@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { USERS } from '../mock-user';
 
 @Component({
   selector: 'app-contact',
@@ -7,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
+  users = USERS;
   constructor() { }
 
   ngOnInit() {
   }
-
 }
