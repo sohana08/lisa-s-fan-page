@@ -1,0 +1,38 @@
+mat-card {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+mat-card header {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2em;
+  font-family: 'Pacifico', cursive;
+  color: blue;
+  box-shadow: 1em;
+
+}
+
+.mybut {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.post-image {
+  width: 50%;
+  height: 50%;
+
+
+}
+
+.post-image img {
+  width: 95%;
+  height: 60%;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+/* mat-paginator {
+  margin-left: 210px;
+  margin-top: 30px;
+} */
